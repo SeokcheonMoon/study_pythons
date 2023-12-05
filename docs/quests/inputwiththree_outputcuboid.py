@@ -1,3 +1,7 @@
-num_first, num_second, num_third, num_fourth = "4 1 1 4".split()
+num_first, num_second, num_third = input().split()
 
-print("가로{}m * 세로{}m * 높이{} = 직육면체{}m^3".format(num_first,num_second,num_third,num_fourth))
+first = int(num_first)
+second = int(num_second)
+third = int(num_third)
+fourth = first * second * third
+print("가로({})m * 세로({}) * 높이({}) = 직육면체({})m^3".format(first,second,third,fourth))
