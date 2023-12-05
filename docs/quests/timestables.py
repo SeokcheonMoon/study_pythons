@@ -1,4 +1,7 @@
-number=0
+alpha_number=input()
+
+number = int(alpha_number)
+
 
 while number < 9:
     pass
