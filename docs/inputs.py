@@ -14,4 +14,7 @@ str_input_desc = "출생년도 입력 : "
 num_input_birthyear = input("{}".format(str_input_desc)) # 입력
 num_age = 2023 - int(num_input_birthyear)
 print("출생년도 기준 내 나이 계산 : {}살".format(num_age))
+
+
+
 pass    # 종료
