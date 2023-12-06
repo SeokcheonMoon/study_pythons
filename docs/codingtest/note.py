@@ -1,7 +1,7 @@
 A= int(input())
 B= int(input())
 
-print("{}".format(A+B))
+print("{}".format(number))
 print(A-B)
 print(A*B)
 print (int(A/B))
