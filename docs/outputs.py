@@ -15,3 +15,10 @@ if 5 > 2: # 묶음 기호인 :와 tab은 하나의 쌍입니다.
     pass
     print("Five is greater than two!")
 print("end")
+
+# print 시 한줄에 출력
+first = "First"
+second = "Second"
+print("first : {}! ".format(first), end=",")
+print("second : {}! ".format(second))
+print("End program!")
