@@ -18,7 +18,6 @@ len("cherry")
 len(list_mix)
 6
 
+# for 문 활용 후 다시 오기
+
 pass
-
-
-str_num =  [0, 1, 2, 3, "apple", "banana"].split()
