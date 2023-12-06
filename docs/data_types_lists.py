@@ -20,4 +20,18 @@ len(list_mix)
 
 # for 문 활용 후 다시 오기
 
+# index (색인, 위치값)
+list_fruits = ["melon", "apple", "banana", "cherry"]
+##index로 값 가져오기
+list_fruits[0] # 이거 하나 자체가 변수가 되는것임.(단일변수) (1차원) (행 차원)
+'melon'
+list_fruits[3] # list_fruits의 네번째 것을 값으로 함.
+'cherry'
+
+## error 발생
+list_fruits[5]
+# Traceback (most recent call last):
+#   File "<string>", line 1, in <module>
+# IndexError: list index out of range
+
 pass
