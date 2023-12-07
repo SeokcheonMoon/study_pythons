@@ -4,4 +4,8 @@ num_second = input()
 A = int(num_first)
 B = int(num_second)
 
-print
+print("{}".format())
+print("{}".format())
+print("{}".format())
+print("{}".format())
+

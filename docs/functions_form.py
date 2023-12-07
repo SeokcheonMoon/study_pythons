@@ -1,6 +1,6 @@
 # 기본 function 형식 - 기다림. 불리울때 기능한다.-----------------우리가 코드를 만들어서 function 기능을 wrapping하는거라 생각하면 됨.
-def functions() :
-    pass
+def function_name() :
+    pass      # 내용 넣기
     return 0
 
 ## 그냥 연습
@@ -27,4 +27,4 @@ def print_question_and_answer() :
     return 0
 
 print_question_and_answer()
-
+print_question_and_answer()
