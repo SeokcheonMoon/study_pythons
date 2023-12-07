@@ -1,4 +1,3 @@
-## Call by value
 ## 나오는 값 처리
 
 def add() :
@@ -22,3 +21,21 @@ def multiply() :
 
 num_multiply = multiply()
 print("num_multiply return value : {}".format(num_multiply))
+
+
+# --------------------------------------------------------------------------------------------
+
+# list_fruits = ["melon", "apple", "banana", "cherry"]
+# ##index로 값 가져오기
+# list_fruits[0] # 이거 하나 자체가 변수가 되는것임.(단일변수) (1차원) (행 차원)
+
+
+
+def return_list() :
+    list_fruits = ["melon", "apple", "banana", "cherry"]
+    return list_fruits
+
+fruits=return_list()
+print("{}".format(fruits))
+
+#return은 한가지 값만 나온다!
