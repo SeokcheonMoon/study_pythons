@@ -19,10 +19,13 @@ class Arithmetics :
         value = first / second
         return value    
 
+num_first,num_second = input().split()
+first = int(num_first)
+second = int(num_second)
 arithmetics = Arithmetics()
 
-print("{}".format(arithmetics.minus(5,2)))
+print("{}".format(arithmetics.minus(first,second)))
 
-print("{}".format(arithmetics.multiply(8,7)))
+print("{}".format(arithmetics.multiply(first,second)))
 
-print("{}".format(arithmetics.division(9,3)))
+print("{}".format(arithmetics.division(first,second)))
