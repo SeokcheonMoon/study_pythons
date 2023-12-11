@@ -27,7 +27,7 @@ class Enemy :
         self.damage = 0
     
     def attack(self, damage) : #--------------------------class 안의 변수들이기 때문에 각각에 self.를 붙여줌.
-        self.health = self.health - self.damage
+        self.health = self.health - damage
         return self.health
 
     def function_name(self) : 
