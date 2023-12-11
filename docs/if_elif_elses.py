@@ -54,3 +54,33 @@ else :
     pass
     print("{}은 80점 이하이므로 F입니다.".format(my_score))
 print("End program")
+
+
+################################################################
+
+
+first = 200
+second = 33
+third = 500
+
+#condition 사용 이전에 각각 결과 확인
+
+first > second
+# True
+first > second and third > first
+# True
+third > first
+# True
+
+
+
+pass
+
+if first > second and third > first :
+    print("Both conditions are True")
+
+
+if not (first < second) :
+    print("not first < second")
+pass
+print("End program!")

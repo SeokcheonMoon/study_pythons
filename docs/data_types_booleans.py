@@ -43,3 +43,32 @@ myscore = 80
 myscore > 80
 False
 pass
+
+# myscore > 80
+# False
+# myscore >= 75
+# True
+# myscore <= 85
+# True
+# myscore >= 75 and myscore <= 85
+# True
+# myscore >= 75 and myscore< 80
+# False
+
+#논리 연산자 (True False 에 대한 결과 연산자)
+# and : 1 and 1 = 1, 나머지는 0이다.
+# or : 0 or 0 -> 0, 나머지는 1
+# not : 반대로 변환 
+
+
+########################################################################################
+
+
+# 부등호 사용시 결과는 True or False
+# data type : boolean
+# 인간의 말로 예,아니오 를 판단의 근거로 함.
+# 50점 이상부터 60점 이하는 C학점이다. -> 긍정도 부정도 아님.
+# 컴퓨터는 상태를 확인할때 논리 연산자를 사용함 (True, False)
+# 현재 값이 75점 이상부터 85점 이하는 C학점이다.
+
+pass
