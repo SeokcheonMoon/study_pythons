@@ -12,10 +12,10 @@
 # 출력
 # 첫째 줄부터 넷째 줄까지 차례대로 (3), (4), (5), (6)에 들어갈 값을 출력한다.
 
-num_first = input()
-num_second = input()
+str_first = input()
+str_second = input()
 
-print("{}".format())
-print("{}".format())
-print("{}".format())
-print("{}".format())
+num_first = int(str_first)
+num_second = int(str_second)
+
+print(range(num_second,3))
