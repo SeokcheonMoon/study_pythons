@@ -29,9 +29,25 @@ list_fruits[3] # list_fruits의 네번째 것을 값으로 함.
 'cherry'
 
 ## error 발생
-list_fruits[5]
+# list_fruits[5]
 # Traceback (most recent call last):
 #   File "<string>", line 1, in <module>
 # IndexError: list index out of range
+
+# list 초기화 방식
+list_fruits_primitive = ["melon", "apple", "banana", "cherry"] # ==========> 원시적인 방법임. class상태임.
+tuple_fruits = ("melon", "apple", "banana", "cherry") # tuple은 변화 X
+list_fruits_constructor = list(("melon", "apple", "banana", "cherry")) # ==========> list초기화?                                        # list()는 자체가 class가 됨.
+
+# list에 무언가를 추가할때 쓰는 방법임.
+list_fruits_primitive.append("strawberry")  
+list_fruits_constructor.append("watermelon")
+
+# list에 있는 무언가를 없애는 방법.(2가지)
+## 해당하는 언어 전부를 모두 삭제
+list_fruits_primitive.remove("apple") 
+list_fruits_constructor.remove("watermelon")
+## list에 있는것을 모두 삭제
+list_fruits_primitive.clear()
 
 pass
