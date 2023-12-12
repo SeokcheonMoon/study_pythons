@@ -31,7 +31,7 @@ def quest_making() :
 
     dict_making["question"] = input()
     for x in [0,1,2,3] :
-        dict_making["answer"] = input()
+        dict_making["answer"] = dict_making["answer"].append(input())
     dict_making["correct_index"] = input()
     dict_making["score"] = input()
 
