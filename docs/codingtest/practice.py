@@ -18,9 +18,10 @@ num_first = int(str_first)
 num_second = int(str_second)
 num_third = int(str_third)
 
-
+#num_second가 60미만일때
 num_second = num_second + num_third
-
+#num_second가 60이상일때
+num_first
 
 if num_second >= 60 : 
     
