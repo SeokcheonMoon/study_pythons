@@ -20,8 +20,8 @@ num_third = int(str_third)
 
 #num_second가 60미만일때
 num_second = num_second + num_third
-#num_second가 60이상일때
-num_first
+#num_second가 60이상일때마다
+num_first +1 , num_second 
 
 if num_second >= 60 : 
     
