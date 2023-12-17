@@ -22,14 +22,19 @@ num_second = int(str_second)
 num_third = int(str_third)
 
 list_number = [num_first,num_second,num_third]
-max_number = list_number(max)
-min_number = list_number(min)
+max_number = max(list_number)
 
 if num_first == num_second == num_third :
     print("{}".format(10000 + num_first*1000))
 
-elif num_first == num_second != num_third or num_second == num_third != num_first or num_first == num_third != num_second :
-    print("{}".format())
+elif num_first == num_second != num_third :
+    print("{}".format(1000 + num_first*100))
+
+elif num_second == num_third != num_first :
+    print("{}".format(1000 + num_second*100))
+
+elif num_first == num_third != num_second :
+    print("{}".format(1000 + num_first*100))
 
 else :
-    print("{}".format(list_number(max)*100))
+    print("{}".format(max(list_number)*100))
