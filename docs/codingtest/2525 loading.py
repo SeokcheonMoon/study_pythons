@@ -22,14 +22,33 @@ num_first = int(str_first)
 num_second = int(str_second)
 num_third = int(str_third)
 
-if num_third < 60 : 
-    #num_second가 60미만일때
-    num_second = num_second + num_third
-    print("{} {}".format(num_first, num_second))
+num_second = num_second + num_third
+num_first = num_first + num_third//60
 
-elif num_third >= 60 :
-    num_first = num_first + num_third//60
-    num_second = num_second + num_third
-    print("{} {}".format(num_first, num_second))
+def clock(num_first, num_second) :
 
-pass
+    if num_first >= 24:
+        num_first = num_first - 24
+
+        if num_second < 60 :
+
+            print("{} {}".format(num_first, num_second))
+
+        elif num_second >= 60 :
+            num_second = num_second % 60
+
+            print("{} {}".format(num_first, num_second))
+
+    else :
+
+        if num_second < 60 :
+
+            print("{} {}".format(num_first, num_second))
+
+        elif num_second >= 60 :
+            num_second = num_second % 60
+
+            print("{} {}".format(num_first, num_second))
+
+    return
+
