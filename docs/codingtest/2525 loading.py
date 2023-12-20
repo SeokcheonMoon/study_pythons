@@ -15,6 +15,8 @@
 # keyword : % 연산자 - (몫은 버리고 나머지를 추출하는 연산자)
 # keyword : // 연산자 - (몫을 추출하는 연산자)
 
+
+
 str_first,str_second = input().split()
 str_third = input()
 
@@ -25,30 +27,26 @@ num_third = int(str_third)
 num_second = num_second + num_third
 num_first = num_first + num_third//60
 
-def clock(num_first, num_second) :
 
-    if num_first >= 24:
-        num_first = num_first - 24
+if num_first >= 24:
+    num_first = num_first - 24
 
-        if num_second < 60 :
+    if num_second < 60 :
 
-            print("{} {}".format(num_first, num_second))
+        print("{} {}".format(num_first, num_second))
 
-        elif num_second >= 60 :
-            num_second = num_second % 60
+    elif num_second >= 60 :
+        num_second = num_second % 60
 
-            print("{} {}".format(num_first, num_second))
+        print("{} {}".format(num_first, num_second))
 
-    else :
+else :
 
-        if num_second < 60 :
+    if num_second < 60 :
 
-            print("{} {}".format(num_first, num_second))
+        print("{} {}".format(num_first, num_second))
 
-        elif num_second >= 60 :
-            num_second = num_second % 60
+    elif num_second >= 60 :
+        num_second = num_second % 60
 
-            print("{} {}".format(num_first, num_second))
-
-    return
-
+        print("{} {}".format(num_first, num_second))
