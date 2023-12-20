@@ -11,6 +11,10 @@
 
 # 출력
 # 첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)
+
+# keyword : % 연산자 - (몫은 버리고 나머지를 추출하는 연산자)
+# keyword : // 연산자 - (몫을 추출하는 연산자)
+
 str_first,str_second = input().split()
 str_third = input()
 
@@ -18,14 +22,14 @@ num_first = int(str_first)
 num_second = int(str_second)
 num_third = int(str_third)
 
-#num_second가 60미만일때
-num_second = num_second + num_third
-#num_second가 60이상일때마다
-num_first +1 , num_second 
-
-if num_second >= 60 : 
-    
+if num_third < 60 : 
+    #num_second가 60미만일때
+    num_second = num_second + num_third
     print("{} {}".format(num_first, num_second))
 
+elif num_third >= 60 :
+    num_first = num_first + num_third//60
+    num_second = num_second + num_third
+    print("{} {}".format(num_first, num_second))
 
-# 분이 60
+pass
