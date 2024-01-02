@@ -1,9 +1,9 @@
-def home() : 
-    html = "<body> It is home.</body>"
+def home(value) : 
+    html = "<body> It is home, value {} </body>".format(value)
     return html
 
-def error() : 
-    html = "<body> It is error.</body>"
+def error(value) : 
+    html = "<body> It is error, value {} </body>".format(value)
     return html
 
 # 항시 응답 프로그램 만들기
@@ -16,8 +16,8 @@ while True :
     work, value = input("업무 / 해당값 : ").split()
     print("work : {}, value : {}".format(work,value))    
     if work == "home" :
-        result = home()
+        result = home(value)
         print(result)
     else :
-        result = error()
+        result = error(value)
         print(result)
