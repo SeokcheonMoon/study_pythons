@@ -11,7 +11,7 @@
 
 print("|\_/|")
 print("|q p|   /}")
-print("( 0 )" '"' '"' "\"")
+print("( 0 )" '"""' "\\")
 # print()
 # print()
 
