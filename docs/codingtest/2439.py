@@ -17,6 +17,5 @@ cycle = int(str_cycle)
 list = []
 for x in range(cycle) :
     list.append("*")
-    result = str(list)
-    answer ="".join(result)
-    print("".rjust(answer))
+    answer ="".join(list)
+    print(answer)
