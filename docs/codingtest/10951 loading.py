@@ -12,17 +12,11 @@
 # 각 테스트 케이스마다 A+B를 출력한다.
 
 def testcase():
-
     for x in range(5) :
         str_first, str_second = input().split()
         num_first = int(str_first)
         num_second = int(str_second)
         result = num_first + num_second
-
-        if x == 5 :
-            break
-        else :
-            print("{}".format(result))
+        print("{}".format(result))
     return 0
-
 testcase()
