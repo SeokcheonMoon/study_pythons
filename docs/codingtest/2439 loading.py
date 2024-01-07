@@ -17,5 +17,6 @@ cycle = int(str_cycle)
 list = []
 for x in range(cycle) :
     list.append("*")
-    answer ="".join(list)
+    reverse_list = reversed(list)
+    answer ="".join(reverse_list)
     print(answer)
