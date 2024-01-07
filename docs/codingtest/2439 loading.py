@@ -11,12 +11,14 @@
 # 출력
 # 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 
-str_cycle = input()
-cycle = int(str_cycle)
+def joining():
 
-list = []
-for x in range(cycle) :
-    list.append("*")
-    reverse_list = reversed(list)
-    answer ="".join(reverse_list)
-    print(answer)
+    str_cycle = input()
+    cycle = int(str_cycle)
+
+    list = []
+    for x in range(cycle) :
+        list.append("*")
+        answer ="".join(list)
+        print(answer.rjust(cycle))
+joining()
