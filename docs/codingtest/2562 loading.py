@@ -21,6 +21,7 @@ def max_min():
         list_number.append(str_number)
         result_list = list(map(int,list_number))
         answer = max(result_list)
+        
     print(answer)
     print(len(list_number,answer))
 
