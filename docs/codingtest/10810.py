@@ -17,20 +17,35 @@
 # 출력
 # 1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다. 공이 들어있지 않은 바구니는 0을 출력한다.
 
-str_index_list, str_number = input().split(),input()
+# str_index_list, str_number = input().split(),input()
 
-index_list = list(map(int,str_index_list))
-number = int(str_number)
+# index_list = list(map(int,str_index_list))
+# number = int(str_number)
+def bucket_counting() :
+    bucket_count = [0]
+
+    str_bucket_count, str_ball_cycle = input().split()      # 5 , 4
+    bucket_count = int(str_bucket_count)*bucket_count
+
+    ball_cycle = int(str_ball_cycle)
+
+    for x in range(ball_cycle) :
+        str_range_first,str_range_second,str_ball_number =input().split()
+
+        range_first = int(str_range_first)
+        range_second = int(str_range_second)
+        ball_number = int(str_ball_number)
+        pass
 
 
+        for y in range(range_first,range_second+1):
+            pass
+            bucket_count[y-1] = ball_number
+            pass
+            
+    only_count = ' '.join(map(str, bucket_count))
+    print("{}".format(only_count))
 
+    return 0
 
-나중에는 
-리스트가 5개
-list 1      [ 입력된 숫자 값]
-list 2      [ 입력된 숫자 값]
-list 3      [ 입력된 숫자 값]
-list 4      [ 입력된 숫자 값]
-list 5      [ 입력된 숫자 값]
-
-이걸 len(list())
+bucket_counting()
