@@ -21,4 +21,20 @@ for x in range(10) :
     result = number % 42    # result는 number를 42로 나누고 난 후의 나머지
     list_number.append(result)          # list 에 숫자가 다 담김
 
-    
+print(list_number)
+
+
+for a in range(0,len(list_number)) :
+    if list_number[a] == list_number[0,len(list_number)] :
+
+    for b in range(len(list_number)):
+        if list_number[a] == list_number[b] :
+            sum += 0
+        elif list_number[b] == list_number[a] :
+            sum += 0
+        else : 
+            sum += 1
+        pass
+    pass
+print(sum)
+
