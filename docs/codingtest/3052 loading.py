@@ -12,7 +12,6 @@
 # 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
 
 list_number = []
-sum = 0
 
 for x in range(10) :
     str_number = input()
@@ -21,20 +20,15 @@ for x in range(10) :
     result = number % 42    # result는 number를 42로 나누고 난 후의 나머지
     list_number.append(result)          # list 에 숫자가 다 담김
 
+answer_list = []
+for index in list_number :
+    
+    if list_number[index-1] == list_number[index-1] :
+        list_number.count("")
+    else :
+        list_number.count(list_number[index-1])
 print(list_number)
-
-
-for a in range(0,len(list_number)) :
-    if list_number[a] == list_number[0,len(list_number)] :
-
-    for b in range(len(list_number)):
-        if list_number[a] == list_number[b] :
-            sum += 0
-        elif list_number[b] == list_number[a] :
-            sum += 0
-        else : 
-            sum += 1
-        pass
-    pass
-print(sum)
-
+# answer_number = 
+# answer_list.append(answer_number)
+# pass
+# print("{} : {}".format(list_number[index-1],answer_list))
