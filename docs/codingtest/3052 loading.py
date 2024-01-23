@@ -20,15 +20,16 @@ for x in range(10) :
     result = number % 42    # result는 number를 42로 나누고 난 후의 나머지
     list_number.append(result)          # list 에 숫자가 다 담김
 
-answer_list = []
-for index in list_number :
-    
-    if list_number[index-1] == list_number[index-1] :
-        list_number.count("")
+sorted_list = sorted(list_number)
+# print(sorted_list)
+
+answer = 1
+for y in [0,1,2,3,4,5,6,7,8,9] :
+    if y == 9 :
+        break
+    elif sorted_list[y] == sorted_list[y+1] :
+        answer = answer + 0
     else :
-        list_number.count(list_number[index-1])
-print(list_number)
-# answer_number = 
-# answer_list.append(answer_number)
-# pass
-# print("{} : {}".format(list_number[index-1],answer_list))
+        answer = answer + 1
+
+print(answer)
