@@ -18,13 +18,9 @@ count = int(str_count)
 
 pre_list = list(map(int,input().split()))
 
-
-
 sum = 0
-after_list = []
 for y in range(count) :
     after_score = (pre_list[y]/max(pre_list)) * 100
-    after_list.append(after_score)
     sum = sum + after_score
 average = sum/count
 print(average)
