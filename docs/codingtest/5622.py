@@ -31,6 +31,10 @@ w,x,y,z = 9,9,9,9
 str_text = input()    # WA
 text_list = list(str_text)
 sum = 0
-for x in range(len(text_list)):
-    sum = sum + text_list[x-1]
+
+list_new = [element.strip('"') for element in text_list]
+print(list_new)
+
+for x in range(len(list_new)):
+    sum = sum + list_new[x-1]
 print(sum)
