@@ -45,6 +45,16 @@ pass
 str_text = input()                                          #baekjoon
 text = list(str_text)                                       #['b', 'a', 'e', 'k', 'j', 'o', 'o', 'n']
 
-for x in range(len(text)):
-    alphabet = list_alphabet.index(text[x])                            #b
-    print(alphabet)
+answer_list = []
+
+for index in range(len(list_alphabet)):
+    if text[x] :
+
+    else : 
+        list_alphabet.append(-1)
+        
+text["b"]=1
+
+인풋을 받고 list_alphabet 요소 전부 다를 baekjoon의 알파벳과 비교
+리스트 알파벳 안에 백준의 b가 있으면 순서를 출력
+나머지면 -1을 출력

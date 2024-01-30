@@ -9,7 +9,23 @@
 # 출력
 # 첫째 줄부터 N개의 줄에 행렬 A와 B를 더한 행렬을 출력한다. 행렬의 각 원소는 공백으로 구분한다.
 
-str_number = input()
+str_repeat, str_cycle = input().split()
+num_repeat = int(str_repeat)
+num_cycle = int(str_cycle)
+list_A = []
 
-list_number = list(map(int,str_number))
-print(list_number)
+for x in range(num_cycle):
+    str_first,str_second,str_third = input().split()
+    first = int(str_first)
+    second = int(str_second)
+    third = int(str_third)
+    
+
+
+
+A리스트1+B리스트1
+A리스트2+B리스트2
+A리스트3+B리스트3
+
+
+
