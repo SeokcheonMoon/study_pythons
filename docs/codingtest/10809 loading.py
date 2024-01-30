@@ -10,3 +10,41 @@
 # 각각의 알파벳에 대해서, a가 처음 등장하는 위치, b가 처음 등장하는 위치, ... z가 처음 등장하는 위치를 공백으로 구분해서 출력한다.
 
 # 만약, 어떤 알파벳이 단어에 포함되어 있지 않다면 -1을 출력한다. 단어의 첫 번째 글자는 0번째 위치이고, 두 번째 글자는 1번째 위치이다.
+
+a=0
+b=1
+c=2
+d=3
+e=4
+f=5
+g=6
+h=7
+i=8
+j=9
+k=10
+l=11
+m=12
+n=13
+o=14
+p=15
+q=16
+r=17
+s=18
+t=19
+u=20
+v=21
+w=22
+x=23
+y=24
+z=25
+
+list_alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+pass
+
+str_text = input()                                          #baekjoon
+text = list(str_text)                                       #['b', 'a', 'e', 'k', 'j', 'o', 'o', 'n']
+
+for x in range(len(text)):
+    alphabet = list_alphabet.index(text[x])                            #b
+    print(alphabet)
