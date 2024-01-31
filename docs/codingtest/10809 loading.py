@@ -46,12 +46,14 @@ str_text = input()                                          #baekjoon
 text = list(str_text)                                       #['b', 'a', 'e', 'k', 'j', 'o', 'o', 'n']
 
 answer_list = []
+for x in range(len(list_alphabet)):
+    answer_list.append(-1)
 
-for index in range(len(list_alphabet)):
+for index in range(len(text)):
+    a=0
     if text[x] :
-
+        a = a + 1
     else : 
-        list_alphabet.append(-1)
         
 text["b"]=1
 
