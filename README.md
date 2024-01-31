@@ -34,11 +34,27 @@
 ||2439|[py](./docs/codingtest/2439.py)||[백준 2439](https://www.acmicpc.net/problem/2439)|
 ||10952|[py](./docs/codingtest/10952.py)||[백준 10952](https://www.acmicpc.net/problem/10952)|
 ||10951|[py](./docs/codingtest/10951.py)|||
-|4단계|10172|[py](./docs/codingtest/2557.py)||[백준 10172](https://www.acmicpc.net/problem/10172)|
-||10172|[py](./docs/codingtest/2557.py)||[백준 10172](https://www.acmicpc.net/problem/10172)|
-||10172|[py](./docs/codingtest/2557.py)||[백준 10172](https://www.acmicpc.net/problem/10172)|
-||10172|[py](./docs/codingtest/2557.py)||[백준 10172](https://www.acmicpc.net/problem/10172)|
-||10172|[py](./docs/codingtest/2557.py)||[백준 10172](https://www.acmicpc.net/problem/10172)|
+|4단계|10807|[py](./docs/codingtest/10807.py)||[백준 10807](https://www.acmicpc.net/problem/10807)|
+||10871|[py](./docs/codingtest/10871.py)||[백준 10871](https://www.acmicpc.net/problem/10871)|
+||10818|[py](./docs/codingtest/10818.py)||[백준 10818](https://www.acmicpc.net/problem/10818)|
+||2562|[py](./docs/codingtest/2562.py)||[백준 2562](https://www.acmicpc.net/problem/2562)|
+||10810|[py](./docs/codingtest/10810.py)||[백준 10810](https://www.acmicpc.net/problem/10810)|
+||10813|[py](./docs/codingtest/10813.py)||[백준 10813](https://www.acmicpc.net/problem/10813)|
+||5597|[py](./docs/codingtest/5597.py)||[백준 5597](https://www.acmicpc.net/problem/5597)|
+||3052|[py](./docs/codingtest/3052.py)||[백준 3052](https://www.acmicpc.net/problem/3052)|
+||10811|[py](./docs/codingtest/10811.py)|||
+||1546|[py](./docs/codingtest/1546.py)||[백준 1546](https://www.acmicpc.net/problem/1546)|
+|5단계|27866|[py](./docs/codingtest/27866.py)||[백준 27866](https://www.acmicpc.net/problem/27866)|
+||2743|[py](./docs/codingtest/2743.py)||[백준 2743](https://www.acmicpc.net/problem/2743)|
+||9086|[py](./docs/codingtest/9086.py)||[백준 9086](https://www.acmicpc.net/problem/9086)|
+||11654|[py](./docs/codingtest/11654.py)||[백준 11654](https://www.acmicpc.net/problem/11654)|
+||11720|[py](./docs/codingtest/11720.py)||[백준 11720](https://www.acmicpc.net/problem/11720)|
+||10809|[py](./docs/codingtest/10809.py)|||
+||2675|[py](./docs/codingtest/2675.py)||[백준 2675](https://www.acmicpc.net/problem/2675)|
+||1152|[py](./docs/codingtest/1152.py)||[백준 1152](https://www.acmicpc.net/problem/1152)|
+||2908|[py](./docs/codingtest/2908.py)||[백준 2908](https://www.acmicpc.net/problem/2908)|
+||5622|[py](./docs/codingtest/5622.py)|||
+||11718|[py](./docs/codingtest/11718.py)|||
 
 ### 코드 블럭
 ```
