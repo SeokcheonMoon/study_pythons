@@ -8,26 +8,15 @@
 # 입출력 예 #2
 # n이 4이므로 2 + 4 = 6을 return 합니다.
 
-# list_number = []
-# answer = 0
-# for number in range(n) :
-#     if number % 2 == 0 :
-#         list_number.append(number)
-#     answer = answer + list_number[number-1]
-# answer = 0
-# for repeat in range(n):
-#     answer = answer + list_number[repeat-1]
-
-str_num =input()
-n = int(str_num)
-
 def solution(n):
     list_number = []
-    answer = 0
-    for number in range(n) :
+    for number in range(1,n+1) :
         if number % 2 == 0 :
             list_number.append(number)
-    answer = answer + list_number[number-1]
+    answer = 0
+    for index in range(0,len(list_number)+1):
+        if index == len(list_number) : 
+            break
+        else:
+            answer = answer + list_number[index]
     return answer
-
-solution(n)
