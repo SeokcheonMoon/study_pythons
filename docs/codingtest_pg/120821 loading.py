@@ -19,5 +19,7 @@
 #     return answer
 
 num_list = [1,2,3,4,5]
-answer = list.reverse(num_list)
-print(answer)
+answer_list = []
+for x in range(1,len(num_list)+1) :
+    answer_list.append(x)
+pass 
