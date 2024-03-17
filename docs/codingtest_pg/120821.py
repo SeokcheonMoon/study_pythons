@@ -14,10 +14,6 @@
 
 # num_list가 [1, 0, 1, 1, 1, 3, 5]이므로 순서를 거꾸로 뒤집은 배열 [5, 3, 1, 1, 1, 0, 1]을 return합니다.
 
-# def solution(num_list):
-#     answer = list.reversed(num_list)
-#     return answer
-
-num_list = [1,2,3,4,5]
-answer = list.reverse(num_list)
-print(answer)
+def solution(num_list):
+    answer = list(reversed(num_list))
+    return answer
