@@ -14,6 +14,7 @@
 
 # num_list가 [1, 0, 1, 1, 1, 3, 5]이므로 순서를 거꾸로 뒤집은 배열 [5, 3, 1, 1, 1, 0, 1]을 return합니다.
 
+<<<<<<< HEAD:docs/codingtest_pg/120821 loading.py
 # def solution(num_list):
 #     answer = list.reversed(num_list)
 #     return answer
@@ -23,3 +24,8 @@ answer_list = []
 for x in range(1,len(num_list)+1) :
     answer_list.append(x)
 pass 
+=======
+def solution(num_list):
+    answer = list(reversed(num_list))
+    return answer
+>>>>>>> fbeeab0d6b0e704fbfced12472c00fd1dafe29f2:docs/codingtest_pg/120821.py
