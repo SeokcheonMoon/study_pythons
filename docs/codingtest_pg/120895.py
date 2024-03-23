@@ -11,13 +11,30 @@
 
 # "I love you"의 3번째 인덱스 "o"와 " "(공백)을 바꾸면 "I l veoyou"입니다.
 
-# def solution(my_string, num1, num2):
-#     answer = ''
-#     return answer
+def solution(my_string, num1, num2):
+    list_string  = list(my_string)
 
-my_string = "hello"
-num1 = 1
-num2 = 2
+    a = list_string[num1]
+    b = list_string[num2]
 
-for x in range(len(my_string)):
-    
+    list_string[num2] = a
+    list_string[num1] = b
+
+    answer = "".join(list_string)
+    return answer
+
+# my_string = "I love you"
+# num1 = 3
+# num2 = 6
+
+# list_string  = list(my_string)
+
+# a = list_string[num1]
+# b = list_string[num2]
+
+# list_string[num2] = a
+# list_string[num1] = b
+
+# answer = "".join(list_string)
+
+# print(answer)
