@@ -23,12 +23,29 @@
 # def solution(chicken):
 #     answer = -1
 #     return answer
+# 1000 100 10 
 
-chicken = 1081
-result = 11
-108 + 10 + 1 + (8+1+1)
-answer = chicken // 10 + chicken // 10 // 10 + chicken // 10 // 10 // 10 + (chicken // 10 % 10 + chicken // 10 // 10 % 10 + chicken // 10 // 10 // 10 % 10 + 1)//10
+chicken = 2000
+# result = 222
+
+str_chicken = str(chicken)
+
+list_answer = []
+list_plus = []
+value = chicken // 10
+plus = chicken % 10
+
+for x in range(len(str_chicken)):
+    list_answer.append(value)
+    list_plus.append(plus)
+    plus = value % 10
+    value = value // 10
+
+
+answer = sum(list_answer) + sum(list_plus)//10
 print(answer)
 
-while True :
-    if chicken // 
+# a = 1 % 10 // 10
+# 10 + 1 + a
+# 
+# (chicken // 10 % 10 + chicken // 10 // 10 % 10 + chicken // 10 // 10 // 10 % 10 + 1)//10
