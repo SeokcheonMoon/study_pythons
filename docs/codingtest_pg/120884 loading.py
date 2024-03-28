@@ -25,7 +25,7 @@
 #     return answer
 # 1000 100 10 
 
-chicken = 2000
+chicken = 1999
 # result = 222
 
 str_chicken = str(chicken)
@@ -41,9 +41,14 @@ for x in range(len(str_chicken)):
     plus = value % 10
     value = value // 10
 
-
 answer = sum(list_answer) + sum(list_plus)//10
+if sum(list_plus) // 10 + sum(list_plus) % 10 >= 10:
+    answer = answer + 1
+
 print(answer)
+
+# if 28 // 10 + 28 % 10 >= 10:
+#     answer = answer + 1
 
 # a = 1 % 10 // 10
 # 10 + 1 + a

@@ -25,8 +25,17 @@ k = 1
 result = 6
 
 string_number = []
+answer = 0
 for x in range(i,j+1):
     string_number.append(str(x))
-list_number = list(map(int,string_number))
+
+list_number = []
+for y in range(len(string_number)):
+    list_number.append(str(string_number[y]).split())
+
+list_final = list(map(int(list_number)))
+print(list_final)
+
+# list_number = list(map(int,string_number))
 # for y in range(len(list_number)):
 #     list
