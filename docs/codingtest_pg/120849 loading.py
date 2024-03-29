@@ -22,10 +22,13 @@ result = "nc t mt y"
 
 list_string = list(my_string)
 list_quest = ["a","e","i","o","u"]
+list_answer = []
 
-for x in range(len(list_quest)):
-    for y in range(len(list_string)):
-        if list_quest[x] == list_string[y]:
-            list_string.remove(list_string[y])
-
-print(list_string)
+for x in range(len(list_string)):
+    for y in range(len(list_quest)):
+        if list_string[x] != list_quest[y]:
+            list_answer.append(list_string[x])
+            break
+while True:
+    list_answer.remove("e")
+print(list_answer)

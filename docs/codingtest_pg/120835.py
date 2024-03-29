@@ -16,13 +16,34 @@
 
 # emergency가 [30, 10, 23, 6, 100]이므로 응급도의 크기 순서대로 번호를 매긴 [2, 4, 3, 5, 1]를 return합니다.
 
-# def solution(emergency):
-#     answer = []
-#     return answer
+def solution(emergency):
+    solving_list = []
+    for x in range(len(emergency)):
+        solving_list.append(emergency[x])
 
-emergency = [3, 76, 24]
-result = [3, 1, 2]
-emergency.sort(reverse=True)
+    solving_list.sort(reverse=True)
+    answer = []
+    for x in range(len(emergency)):
+        answer.append(solving_list.index(emergency[x])+1)
+    return answer
 
-for x in range(len(emergency)):
-    
+# emergency = [3, 76, 24]
+# # solving_emergency = [3, 76, 24]
+# # result = [3, 1, 2]
+
+# # solving_emergency.sort(reverse=True)
+# # list_answer = []
+# # for x in range(len(origin_emergency)):
+# #     list_answer.append(solving_emergency.index(origin_emergency[x])+1)
+# # print(list_answer)
+
+# solving_list = []
+# for x in range(len(emergency)):
+#     solving_list.append(emergency[x])
+
+# solving_list.sort(reverse=True)
+# answer = []
+# for x in range(len(emergency)):
+#     answer.append(solving_list.index(emergency[x])+1)
+
+# print(answer)
