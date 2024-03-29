@@ -16,20 +16,27 @@
 #     answer = []
 #     return answer
 
-score = [[80, 70], [90, 50], [40, 70], [50, 80]]
-result = [1,2,4,3]
+score = [[80, 70], [70, 80], [30, 50], [90, 100], [100, 90], [100, 100], [10, 30]]
+result = [4, 4, 6, 2, 2, 1, 7]
 
-list_answer = []
-list_rank = []
+origin_average = []
+solving_average = []
+
 for x in range(len(score)):
-    list_answer.append(int(sum(score[x])/2))
-    list_rank.append(x)
+    origin_average.append(int(sum(score[x])/2))
+    solving_average.append(int(sum(score[x])/2))
+solving_average.sort(reverse=True)
 
-list_answer.sort(reverse=True)
+# origin_average = [75,,70,55,65]
+# solving_average = [75, 70, 65, 55]
 
-for y in range(len(list_answer)):
+answer = []
 
- 
+for y in range(len(origin_average)):
 
-print(list_answer)
+    answer.append(solving_average.index(origin_average[y])+1)
+    
+ # 중복값 처리만 하면되는데!!!!!!
+
+print(answer)
 
