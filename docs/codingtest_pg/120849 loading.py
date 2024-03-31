@@ -25,10 +25,15 @@ list_quest = ["a","e","i","o","u"]
 list_answer = []
 
 for x in range(len(list_string)):
-    for y in range(len(list_quest)):
-        if list_string[x] != list_quest[y]:
-            list_answer.append(list_string[x])
-            break
-while True:
-    list_answer.remove("e")
-print(list_answer)
+    if list_string[x] == "a":
+        list_string.remove(list_string[x])
+    elif list_string[x] == "i":
+        list_string.remove(list_string[x])
+    elif list_string[x] == "o":
+        list_string.remove(list_string[x])
+    elif list_string[x] == "e":
+        list_string.remove(list_string[x])
+    elif list_string[x] == "u":
+        list_string.remove(list_string[x])
+
+print(list_string)

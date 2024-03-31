@@ -23,16 +23,17 @@ def solution(a, b):
     answer = 0
     return answer
 
-a = 12
-b = 21    
+a = 9
+b = 17    
 result = 1
 
-value = a/b * 100
+value = int(a/b * 100)
 
-if value % 5 == 0 :
+if value % 5 == 0 or value % 2 == 0:
     answer = 1
-elif value % 2 == 0 :
-    answer = 1
+
 else :
     answer = 2
 print(answer)
+
+if b //

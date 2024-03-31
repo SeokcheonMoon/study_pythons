@@ -1,5 +1,4 @@
 # 소인수분해
-
 # https://school.programmers.co.kr/learn/courses/30/lessons/120852
 
 # 문제 설명
@@ -16,12 +15,13 @@
 
 # 420을 소인수분해하면 2 * 2 * 3 * 5 * 7 입니다. 따라서 [2, 3, 5, 7]을 return합니다.
 
-# def solution(n):
-#     answer = []
-#     return answer
+n=420
+result=[2, 3, 5, 7]
 
-n = 420
-result = [2,3,5,7]
+answer = []
 
-if n % 2 == 0 :
-    n / 2 
+for x in range(2,n+1):
+    if n%x == 0:
+        answer.append(x)
+        n = n//x
+print(answer)

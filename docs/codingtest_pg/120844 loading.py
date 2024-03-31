@@ -18,11 +18,6 @@ direction = "left"
 result = [455, 6, 4, -1, 45, 6, 4]
 
 list_answer = []
-if direction == "left":
-    for x in range(len(numbers)):
-        list_answer.append(numbers[:1])
-elif direction == "right":
-    list_answer.append(numbers[:1])
-    list_answer.append(numbers[:1])
-answer = list_answer
-print(answer)
+
+for x in range(len(numbers)):
+    list_answer.append(numbers[x])
