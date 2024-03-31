@@ -14,18 +14,29 @@
 # "abcdef123" 를 길이 3씩 잘라 배열에 저장한 ["abc", "def", "123"]를 return해야 합니다.
 
 def solution(my_str, n):
+    k = 0
     answer = []
+    while True:
+        if k+n >= len(my_str):
+            answer.append(my_str[k:len(my_str)])
+            break
+        else:    
+            answer.append(my_str[k:k+n])
+        k= k+n
     return answer
 
-my_str = "abc1Addfggg4556b"
-n = 6
-result = ["abc1Ad", "dfggg4", "556b"]
+# my_str = "abcdef123"
+# n = 3
+# result = ["abc1Ad", "dfggg4", "556b"]
 
-list_str = list(my_str)
 
-k = 0
-answer = []
-
-for x in range(len(my_str)):
-    answer.append(list_str[k:k+6])
-print(answer)
+# k = 0
+# answer = []
+# while True:
+#     if k+n >= len(my_str):
+#         answer.append(my_str[k:len(my_str)])
+#         break
+#     else:    
+#         answer.append(my_str[k:k+n])
+#     k= k+n
+# print(answer)

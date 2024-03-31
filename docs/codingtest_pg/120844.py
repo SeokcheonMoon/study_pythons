@@ -13,11 +13,32 @@
 
 # numbers 가 [4, 455, 6, 4, -1, 45, 6]이고 direction이 "left" 이므로 왼쪽으로 한 칸씩 회전시킨 [455, 6, 4, -1, 45, 6, 4]를 return합니다.
 
-numbers = [4, 455, 6, 4, -1, 45, 6]	
-direction = "left"
-result = [455, 6, 4, -1, 45, 6, 4]
+def solution(numbers, direction):
+    answer = []
+    if direction == "left":
+        for x in range(1,len(numbers)):
+            answer.append(numbers[x])
+        answer.append(numbers[0])
 
-list_answer = []
+    else :
+        answer.append(numbers[len(numbers)-1])
+        for y in range(0,len(numbers)-1):
+            answer.append(numbers[y])
+    return answer
 
-for x in range(len(numbers)):
-    list_answer.append(numbers[x])
+numbers = [1, 2, 3]
+direction = "right"
+result = [3, 1, 2]
+
+answer = []
+if direction == "left":
+    for x in range(1,len(numbers)):
+        answer.append(numbers[x])
+    answer.append(numbers[0])
+        
+else :
+    answer.append(numbers[len(numbers)-1])
+    for y in range(0,len(numbers)-1):
+        answer.append(numbers[y])
+    
+print(answer)

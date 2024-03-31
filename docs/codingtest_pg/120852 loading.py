@@ -15,7 +15,7 @@
 
 # 420을 소인수분해하면 2 * 2 * 3 * 5 * 7 입니다. 따라서 [2, 3, 5, 7]을 return합니다.
 
-n=420
+n=8
 result=[2, 3, 5, 7]
 
 answer = []
@@ -24,4 +24,7 @@ for x in range(2,n+1):
     if n%x == 0:
         answer.append(x)
         n = n//x
+for y in range(len(answer)):
+    if answer[y]==4:
+        answer.remove(4)
 print(answer)
