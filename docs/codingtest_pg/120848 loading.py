@@ -19,13 +19,17 @@ def solution(n):
     answer = 0
     return answer
 
-n=7
+n=3628800
 result=3
 
+value = n
 for x in range(1,n):
-    n = n/x
-    if n // x > 0:
-        answer = x+1
-    else:
-        break
+    if value // x > 0:
+        answer = value
+        value = int(value/x)
+        if value//x == 0:
+            break
+        
+    # #몫이 0인경우
+    # elif n // x 
 print(answer)
